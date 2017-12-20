@@ -13,11 +13,6 @@ import com.changqin.well.common.config.Global;
 import com.changqin.well.common.utils.CookieUtils;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @author LiuTing
- * @version 2017年8月5日 下午2:34:18
- * 
- */
 public class Page<T> {
 	
 	private int pageNo = 1; // 当前页码

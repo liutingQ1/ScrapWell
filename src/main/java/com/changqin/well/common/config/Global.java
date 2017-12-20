@@ -16,12 +16,7 @@ import com.changqin.well.common.utils.StringUtils;
 import com.ckfinder.connector.ServletContextFactory;
 import com.google.common.collect.Maps;
 
-/**
- * 
-* @author LiuTing
-* @version 2017年8月3日 下午9:40:33
-*
- */
+
 public class Global {
 
 	/**

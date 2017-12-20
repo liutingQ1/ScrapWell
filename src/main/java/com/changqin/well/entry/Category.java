@@ -16,12 +16,6 @@ import javax.persistence.Table;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 
-/**
- * 
- * @author LiuTing
- * @version 2017年8月5日 上午1:11:24
- *
- */
 @Entity
 @Table(name = "sys_category")  
 public class Category {

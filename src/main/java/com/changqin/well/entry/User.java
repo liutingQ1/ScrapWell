@@ -10,11 +10,6 @@ import javax.persistence.Table;
 import com.changqin.well.common.config.Authority;
 import com.changqin.well.common.config.Department;
 
-/**
- * @author LiuTing
- * @version 2017年8月22日 下午8:52:22
- * 
- */
 @Entity
 @Table(name="sys_user")
 public class User {

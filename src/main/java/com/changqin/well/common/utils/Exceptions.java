@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2005-2012 springside.org.cn
- */
 package com.changqin.well.common.utils;
 
 import java.io.PrintWriter;
@@ -10,9 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 关于异常的工具类.
-* @author LiuTing
-* @version 2017年8月3日 下午9:45:31
-*
  */
 public class Exceptions {
 

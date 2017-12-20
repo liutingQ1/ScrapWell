@@ -6,17 +6,9 @@ import org.springframework.stereotype.Repository;
 import com.changqin.well.dao.UserDAO;
 import com.changqin.well.entry.User;
 
-/**
- * @author LiuTing
- * @version 2017年8月9日 下午8:13:20
- * 
- */
 @Repository
 public class UserDAOImpl extends BaseDAOImpl<User> implements UserDAO{
 
-	/* (non-Javadoc)
-	 * @see com.changqin.well.dao.UserDAO#selectOne(java.lang.String, java.lang.String)
-	 */
 	@Override
 	public User selectOne(String username, String password) {
         String sql = "from User where username = ? and password = ?";
@@ -27,9 +19,6 @@ public class UserDAOImpl extends BaseDAOImpl<User> implements UserDAO{
         return result;
 	}
 
-	/* (non-Javadoc)
-	 * @see com.changqin.well.dao.UserDAO#selectOne(java.lang.String)
-	 */
 	@Override
 	public User selectOne(Integer userId) {
 		 String sql = "from User where id = ?";

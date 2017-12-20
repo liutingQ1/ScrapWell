@@ -1,8 +1,3 @@
-/**
- * Copyright (c) 2005-2012 springside.org.cn
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- */
 package com.changqin.well.controller;
 
 import java.io.UnsupportedEncodingException;
@@ -26,11 +21,6 @@ import com.changqin.well.common.utils.Encodes;
 import com.changqin.well.common.utils.StringUtils;
 import com.google.common.net.HttpHeaders;
 
-/**
- * Http与Servlet工具类.
- * @author calvin/thinkgem
- * @version 2014-8-19
- */
 public class Servlets {
 
 	// -- 常用数值定义 --//

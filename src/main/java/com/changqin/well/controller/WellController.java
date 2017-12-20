@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
 package com.changqin.well.controller;
 
 import java.beans.PropertyDescriptor;
@@ -45,9 +42,6 @@ import com.changqin.well.service.WellService;
 
 /**
  * 油气井相关控制
- * @author LiuTing
- * @version 2017年8月27日 下午2:48:52
- *
  */
 @Controller
 @RequestMapping(value = "/cms")

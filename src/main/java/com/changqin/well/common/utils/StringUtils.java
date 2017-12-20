@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
 package com.changqin.well.common.utils;
 
 import java.io.UnsupportedEncodingException;
@@ -17,9 +14,6 @@ import com.google.common.collect.Lists;
 
 /**
  * 字符串工具类, 继承org.apache.commons.lang3.StringUtils类
-* @author LiuTing
-* @version 2017年8月3日 下午9:45:21
-*
  */
 public class StringUtils extends org.apache.commons.lang3.StringUtils {
 	

@@ -13,11 +13,6 @@ import com.changqin.well.common.config.Department;
 import com.changqin.well.common.utils.CookieUtils;
 import com.changqin.well.entry.Category;
 
-/**
- * @author LiuTing
- * @version 2017年8月5日 上午8:24:08
- * 
- */
 @Controller
 @RequestMapping(value = "/cms")
 public class CmsController {

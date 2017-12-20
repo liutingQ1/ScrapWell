@@ -14,11 +14,6 @@ import com.changqin.well.common.config.SelectOption;
 import com.changqin.well.common.utils.CookieUtils;
 import com.changqin.well.entry.WellInfo;
 
-/**
- * @author LiuTing
- * @version 2017年8月12日 上午11:38:24
- * 
- */
 @Controller
 @RequestMapping(value = "/cms")
 public class WellFormController {

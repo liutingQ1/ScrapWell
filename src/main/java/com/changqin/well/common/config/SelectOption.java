@@ -3,11 +3,6 @@ package com.changqin.well.common.config;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author LiuTing
- * @version 2017年8月27日 下午2:59:57
- * 
- */
 public class SelectOption {
 	public static List<String> getDesignType(){
 		ArrayList<String> list = new ArrayList<>();

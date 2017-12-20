@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
 package com.changqin.well.controller;
 
 import javax.servlet.http.HttpServletRequest;
@@ -16,22 +13,11 @@ import com.changqin.well.common.config.Department;
 import com.changqin.well.common.utils.CookieUtils;
 import com.changqin.well.entry.User;
 import com.changqin.well.service.UserService;
-
-/**
- * 
- * @author LiuTing
- * @version 2017年8月22日 下午8:47:32
- *
- */
 @Controller
 public class LoginController {
 	@Autowired
 	private UserService userServer;
 	
-//	@RequestMapping(value = "/login", method = RequestMethod.POST)
-//	public String login() {
-//		return "sysLogin";
-//	}
 	@RequestMapping(value = "/login2", method = RequestMethod.POST)
 	public String login(HttpServletRequest request, HttpServletResponse response, Model model) {
 		String username = request.getParameter("username");

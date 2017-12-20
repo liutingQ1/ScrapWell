@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
 package com.changqin.well.common.utils;
 
 import java.io.UnsupportedEncodingException;
@@ -11,12 +8,6 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Cookie工具类
- * @author LiuTing
- * @version 2017年8月5日 下午2:36:52
- *
- */
 public class CookieUtils {
 
 	/**

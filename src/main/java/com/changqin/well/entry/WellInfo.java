@@ -22,9 +22,6 @@ import com.changqin.well.common.config.InfoState;
 import com.changqin.well.common.config.Department;
 
 /**
- * 
- * @author LiuTing
- * @version 2017年8月5日 下午2:05:05
  *	注意：部分字段没有见名知义，在原有字段名的基础上已经录入了数据，如果修改字段名会造成数据缺失
  */
 @Entity

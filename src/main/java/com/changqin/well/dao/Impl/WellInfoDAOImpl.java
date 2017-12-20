@@ -13,11 +13,6 @@ import com.changqin.well.common.config.InfoState;
 import com.changqin.well.dao.WellInfoDAO;
 import com.changqin.well.entry.WellInfo;
 
-/**
- * @author LiuTing
- * @version 2017年8月9日 下午8:13:20
- * 
- */
 @Repository
 public class WellInfoDAOImpl extends BaseDAOImpl<WellInfo> implements WellInfoDAO {
 	@Override

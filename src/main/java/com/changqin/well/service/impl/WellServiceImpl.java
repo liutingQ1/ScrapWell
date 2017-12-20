@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
 package com.changqin.well.service.impl;
 
 import java.util.Date;
@@ -17,12 +14,6 @@ import com.changqin.well.entry.ImageYear;
 import com.changqin.well.entry.WellInfo;
 import com.changqin.well.service.WellService;
 
-/**
- * 
- * @author LiuTing
- * @version 2017年8月5日 下午3:04:01
- *
- */
 @Service
 @Transactional
 public class WellServiceImpl implements WellService {

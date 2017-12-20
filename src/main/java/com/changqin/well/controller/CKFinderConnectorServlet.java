@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
 package com.changqin.well.controller;
 
 import java.io.IOException;
@@ -15,8 +12,6 @@ import com.ckfinder.connector.ConnectorServlet;
 
 /**
  * CKFinderConnectorServlet
- * @author ThinkGem
- * @version 2014-06-25
  */
 public class CKFinderConnectorServlet extends ConnectorServlet {
 	

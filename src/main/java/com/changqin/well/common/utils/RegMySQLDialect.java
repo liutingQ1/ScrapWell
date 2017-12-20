@@ -5,13 +5,7 @@ import org.hibernate.dialect.function.SQLFunctionTemplate;
 import org.hibernate.type.StandardBasicTypes;
 
 /**
- * @author LiuTing
- * @version 2017年8月9日 下午9:00:27
- * 
- */
-/**
  * 自定义Hibernate方言
- *
  */
 public class RegMySQLDialect extends MySQLDialect{
      

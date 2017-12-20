@@ -8,8 +8,6 @@ import javax.persistence.Table;
 import org.hibernate.annotations.GenericGenerator;
 
 /**
- * @author LiuTing
- * @version 2017年10月13日 下午8:05:51
  * 每口井的图片，每年三张
  */
 @Entity

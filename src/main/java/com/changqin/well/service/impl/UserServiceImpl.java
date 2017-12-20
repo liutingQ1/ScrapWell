@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
 package com.changqin.well.service.impl;
 
 import java.util.List;
@@ -14,30 +11,18 @@ import com.changqin.well.dao.UserDAO;
 import com.changqin.well.entry.User;
 import com.changqin.well.service.UserService;
 
-/**
- * 
- * @author LiuTing
- * @version 2017年8月5日 下午3:04:01
- *
- */
 @Service
 @Transactional
 public class UserServiceImpl implements UserService {
 	@Autowired
 	private UserDAO userDAO;
 
-	/* (non-Javadoc)
-	 * @see com.changqin.well.service.UserService#login(java.lang.String, java.lang.String)
-	 */
 	@Override
 	public User login(String username, String password) {
 		User user = userDAO.selectOne(username, password);
 		return user;
 	}
 
-	/* (non-Javadoc)
-	 * @see com.changqin.well.service.UserService#updatePassword(java.lang.String, java.lang.String)
-	 */
 	@Override
 	public User updatePassword(Integer userId, String newPsw) {
 		User user = userDAO.selectOne(userId);
@@ -46,9 +31,6 @@ public class UserServiceImpl implements UserService {
 		return user;
 	}
 
-	/* (non-Javadoc)
-	 * @see com.changqin.well.service.UserService#getByName(java.lang.String)
-	 */
 	@Override
 	public User getByUserId(Integer userId) {
 		User user = userDAO.selectOne(userId);

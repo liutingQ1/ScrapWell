@@ -9,11 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.changqin.well.entry.Category;
 
-/**
- * @author LiuTing
- * @version 2017年8月12日 上午9:59:19
- * 
- */
 @Controller
 @RequestMapping(value = "/cms")
 public class SelectorListController {
